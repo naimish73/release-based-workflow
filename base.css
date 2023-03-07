@@ -28,9 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	/* Add background-color declaration here */
-}
 ol, ul {
 	list-style: none;
 }
@@ -45,6 +42,9 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+body {
+    background-color: black;
 }
 
 
